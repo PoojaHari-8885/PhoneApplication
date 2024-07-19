@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/phone_nav_graph"
+    app:startDestination="@id/favoritesFragment">
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.phoneapp.dialer.ui.fragments.FavoritesFragment"
+        android:label="FavoritesFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/recentsFragment"
+        android:name="com.phoneapp.dialer.ui.fragments.RecentsFragment"
+        android:label="RecentsFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.phoneapp.dialer.ui.fragments.ContactsFragment"
+        android:label="ContactsFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/dialPadFragment"
+        android:name="com.phoneapp.dialer.ui.fragments.DialPadFragment"
+        android:label="DialPadFragment">
+    </fragment>
+
+</navigation>

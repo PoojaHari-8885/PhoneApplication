@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhoneApplication</string>
+    <string name="fav_icon">fav_icon</string>
+    <string name="favorites_text">Favorites</string>
+    <string name="recents_text">Recents</string>
+    <string name="contacts_text">Contacts</string>
+    <string name="dialpad_text">Dialpad</string>
+</resources>
